@@ -83,14 +83,38 @@
 			isa = PBXGroup;
 			children = (
 				63C019C81C58DF76001F4187 /* AppDelegate.swift */,
-				63C019CA1C58DF76001F4187 /*  VIewController.swift */,
-				63C019CC1C58DF76001F4187 /* Main.storyboard */,
-				63C019CF1C58DF76001F4187 /* Assets.xcassets */,
-				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
-				63C019D41C58DF76001F4187 /* Info.plist */,
+				9FA9594121CB188600A2EB0E /* Controller */,
+				9FA9594021CB187E00A2EB0E /* View */,
+				9FA9594221CB189D00A2EB0E /* Supporting Files */,
 				6385B12D1C68C76C00E57640 /* Sound Files */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		9FA9594021CB187E00A2EB0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
+				63C019CC1C58DF76001F4187 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9FA9594121CB188600A2EB0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C019CA1C58DF76001F4187 /*  VIewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9FA9594221CB189D00A2EB0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C019CF1C58DF76001F4187 /* Assets.xcassets */,
+				63C019D41C58DF76001F4187 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +149,7 @@
 				TargetAttributes = {
 					63C019C41C58DF76001F4187 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6JBM5ZNF6C;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -304,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tom.Xylophone;
@@ -317,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tom.Xylophone;
